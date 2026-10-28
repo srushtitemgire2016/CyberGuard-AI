@@ -1,0 +1,19 @@
+ONLINE FRAUD AND PAYMENT SECURITY
+
+Online fraud can involve impersonation, fake invoices, payment redirection, account takeover, investment scams, and fraudulent support messages.
+
+Warning signs:
+- Urgent requests to change bank details or make an unusual payment.
+- Requests for OTPs, PINs, passwords, or remote access.
+- Unverified payment links or QR codes.
+- Unexpected refunds, prizes, or investment guarantees.
+- Pressure to keep a transaction secret.
+
+Protection:
+- Verify payment changes using a known phone number or contact method.
+- Require a second approver for significant transfers.
+- Review recipient details before confirming payment.
+- Never share banking credentials or OTPs.
+- Use transaction alerts and strong account authentication.
+- Contact the bank immediately if a suspicious transaction occurs.
+- Preserve messages, receipts, and transaction identifiers for reporting.

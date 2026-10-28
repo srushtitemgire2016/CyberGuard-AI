@@ -1,0 +1,19 @@
+ZERO-DAY VULNERABILITIES AND EXPLOITS
+
+A zero-day vulnerability is a software flaw for which effective remediation may not yet be available or widely deployed. A zero-day exploit is a method that takes advantage of such a flaw.
+
+Risks:
+- Attackers may exploit the flaw before a patch is available.
+- Affected systems may be exposed through browsers, applications, devices, or network services.
+- The impact depends on the flaw, privileges, exposure, and available mitigations.
+
+Risk reduction:
+- Minimize exposed services and unnecessary software.
+- Apply vendor mitigations and patches as soon as they are available.
+- Use least privilege, segmentation, endpoint protection, and application control.
+- Monitor vendor advisories and trusted security bulletins.
+- Maintain tested backups and incident-response plans.
+- Investigate unusual activity and preserve relevant logs.
+- Use virtual patching or compensating controls when recommended by the vendor.
+
+Not every vulnerability is a zero-day, and the term does not by itself describe severity. Follow authoritative vendor guidance and assess the actual affected versions.

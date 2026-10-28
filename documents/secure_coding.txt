@@ -1,0 +1,19 @@
+SECURE CODING PRINCIPLES
+
+Secure coding reduces vulnerabilities during software design, implementation, testing, and maintenance.
+
+Practices:
+- Validate input and use context-appropriate output encoding.
+- Use parameterized queries for database access.
+- Apply authentication and server-side authorization checks.
+- Avoid hard-coded passwords, tokens, and private keys.
+- Handle errors safely without exposing secrets or stack traces to users.
+- Keep dependencies updated and review known vulnerabilities.
+- Use secure random number generators for security-sensitive tokens.
+- Protect sessions and cookies.
+- Apply CSRF defenses where applicable.
+- Review file uploads, path handling, deserialization, and external requests carefully.
+- Add automated tests and conduct code review.
+- Follow a secure development lifecycle and authorized security testing.
+
+Input validation alone does not prevent every injection or authorization flaw. Use defense in depth and framework-supported safe patterns.

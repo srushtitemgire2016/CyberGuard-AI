@@ -1,0 +1,19 @@
+MOBILE DEVICE SECURITY
+
+Mobile threats include malicious applications, smishing, unsafe configuration, stolen devices, spyware, and account compromise.
+
+Protection:
+- Install apps from official stores or trusted organizational sources.
+- Review permissions and remove apps that are unnecessary or suspicious.
+- Keep the operating system and apps updated.
+- Use a strong screen lock and device encryption.
+- Enable remote location, lock, and erase features when appropriate.
+- Avoid sideloading untrusted applications.
+- Do not open unexpected links or share OTPs.
+- Use MFA and secure backups.
+- Separate work and personal data where organizational tools support it.
+
+If a device is lost:
+- Use the official device service to locate, lock, or erase it as appropriate.
+- Contact the mobile carrier and workplace IT team if relevant.
+- Revoke sessions and change credentials if account exposure is possible.

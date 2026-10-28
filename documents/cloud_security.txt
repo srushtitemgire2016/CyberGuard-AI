@@ -1,0 +1,22 @@
+CLOUD SECURITY
+
+Cloud security protects cloud-hosted applications, identities, data, workloads, and infrastructure. Security responsibilities are shared between the cloud provider and customer, with the division depending on the service model.
+
+Common risks:
+- Publicly exposed storage or databases.
+- Excessive identity and access permissions.
+- Leaked API keys or secrets.
+- Unpatched workloads and vulnerable dependencies.
+- Missing audit logs or insecure network rules.
+- Unintended cross-account access.
+
+Controls:
+- Apply least privilege and use short-lived credentials where possible.
+- Enable MFA for privileged and administrative accounts.
+- Keep secrets in a managed secret store.
+- Review storage and network exposure regularly.
+- Encrypt sensitive data and protect key access.
+- Enable audit logging, alerts, and backups.
+- Use infrastructure-as-code review and policy checks.
+- Patch workloads and remove unused resources.
+- Test recovery procedures and understand the provider's shared-responsibility model.

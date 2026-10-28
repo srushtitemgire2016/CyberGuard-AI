@@ -1,0 +1,23 @@
+DATA BREACHES AND DATA EXPOSURE
+
+A data breach is an incident in which information is accessed, disclosed, altered, lost, or stolen without authorization. Exposure can occur through attacks, mistakes, misconfiguration, or lost devices.
+
+Sensitive data may include personal information, credentials, financial records, health information, source code, or business secrets.
+
+Prevention:
+- Collect and retain only data that is needed.
+- Classify data and restrict access.
+- Encrypt data at rest and in transit.
+- Use secure backups and access logging.
+- Review cloud sharing and database exposure.
+- Remove secrets from source code and rotate exposed credentials.
+- Securely dispose of data and devices.
+
+Response:
+- Contain the exposure and preserve evidence.
+- Determine what data and systems are affected.
+- Revoke or rotate exposed credentials and keys.
+- Engage legal, privacy, security, and leadership teams as appropriate.
+- Follow applicable notification laws and contractual requirements.
+- Inform affected people through verified channels when required.
+- Correct the root cause and monitor for misuse.

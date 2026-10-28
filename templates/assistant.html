@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+
+{% block title %}AI Assistant | CyberGuard AI{% endblock %}
+
+{% block content %}
+
+<section class="container py-5">
+
+    <div class="text-center mb-5">
+        <span class="badge project-badge mb-3">
+            AI SECURITY ASSISTANT
+        </span>
+
+        <h1>Ask CyberGuard AI</h1>
+
+        <p class="hero-description">
+            Get cybersecurity explanations powered by AI and informed
+            by your cybersecurity documents.
+        </p>
+    </div>
+
+    <div class="feature-card mx-auto" style="max-width: 850px;">
+
+        <h3>How can I help you?</h3>
+
+        <p>Choose an example or enter your own cybersecurity question.</p>
+
+        <div class="d-flex flex-wrap gap-2 mb-4">
+
+            <button type="button"
+                    class="btn btn-outline-info example-question"
+                    data-question="How can I prevent SQL injection attacks?">
+                SQL Injection
+            </button>
+
+            <button type="button"
+                    class="btn btn-outline-info example-question"
+                    data-question="How can I protect my website against cross-site scripting (XSS)?">
+                Cross-Site Scripting
+            </button>
+
+            <button type="button"
+                    class="btn btn-outline-info example-question"
+                    data-question="What are the best practices for securing passwords?">
+                Password Security
+            </button>
+
+            <button type="button"
+                    class="btn btn-outline-info example-question"
+                    data-question="How can I identify a phishing email?">
+                Phishing Detection
+            </button>
+
+        </div>
+
+        <form action="{{ url_for('assistant') }}" method="POST">
+
+            <label for="question" class="form-label">
+                Your cybersecurity question
+            </label>
+
+            <textarea
+                id="question"
+                name="q"
+                class="form-control mb-3"
+                rows="4"
+                maxlength="2000"
+                placeholder="Example: How can I prevent SQL injection attacks?"
+                required>{{ question }}</textarea>
+
+            <button type="submit" class="btn btn-info">
+                Ask CyberGuard AI →
+            </button>
+
+        </form>
+
+        {% if message %}
+        <div class="disclaimer-box mt-4" role="status">
+            <strong>Status</strong>
+            <p class="mb-0">{{ message }}</p>
+        </div>
+        {% endif %}
+
+        {% if answer %}
+        <div class="feature-card mt-5">
+
+            <h3>AI-Generated Answer</h3>
+
+            <div style="white-space: pre-wrap;">{{ answer }}</div>
+
+        </div>
+        {% endif %}
+
+        {% if results %}
+        <div class="mt-5">
+
+            <h3>Reference Sources</h3>
+
+            <p class="text-secondary">
+                These passages were retrieved to provide context for the answer.
+            </p>
+
+            {% for result in results %}
+            <div class="feature-card mt-3">
+
+                <div class="d-flex flex-wrap justify-content-between gap-2 mb-3">
+
+                    <h5 class="mb-0">
+                        Source: {{ result.filename }}
+                    </h5>
+
+                    <span class="badge project-badge">
+                        Similarity: {{ "%.3f"|format(result.score) }}
+                    </span>
+
+                </div>
+
+                <p style="white-space: pre-wrap;">{{ result.content }}</p>
+
+            </div>
+            {% endfor %}
+
+        </div>
+        {% endif %}
+
+    </div>
+
+    <div class="disclaimer-box mt-5 mx-auto" style="max-width: 850px;">
+
+        <strong>Security Notice</strong>
+
+        <p class="mb-0">
+            CyberGuard AI is an academic project under development.
+            AI-generated answers can contain errors. Verify important
+            security recommendations against trusted documentation.
+        </p>
+
+    </div>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}Knowledge Library | CyberGuard AI{% endblock %}
+
+{% block content %}
+
+<section class="container py-5">
+
+    <span class="badge project-badge mb-3">
+        CYBERSECURITY RESOURCES
+    </span>
+
+    <h1>Knowledge Library</h1>
+
+    <p class="text-secondary mt-3">
+        Explore cybersecurity reports, security policies, and
+        threat intelligence documents.
+    </p>
+
+    <div class="row g-4 mt-3">
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="feature-card">
+                <div class="feature-icon">📄</div>
+
+                <h3>Security Reports</h3>
+
+                <p>
+                    Review reports describing cybersecurity threats,
+                    incidents, and defensive recommendations.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="feature-card">
+                <div class="feature-icon">🔐</div>
+
+                <h3>Security Policies</h3>
+
+                <p>
+                    Explore security guidelines and best practices
+                    for protecting systems and data.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+
+                <h3>Threat Intelligence</h3>
+
+                <p>
+                    Learn about emerging threats, attack patterns,
+                    and recommended defensive measures.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="disclaimer-box mt-4">
+        <strong>Coming in the next phase</strong>
+
+        <p class="mb-0">
+            We will add document uploads, PDF text extraction,
+            semantic search, and source-based answers.
+        </p>
+    </div>
+
+</section>
+
+{% endblock %}

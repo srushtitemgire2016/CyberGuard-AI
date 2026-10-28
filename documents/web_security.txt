@@ -1,0 +1,25 @@
+WEB APPLICATION SECURITY
+
+Web applications should protect data, identity, sessions, and business logic.
+
+Common risk areas:
+- Broken access control: users can access resources or actions they should not.
+- Injection: untrusted input changes the meaning of a command or query.
+- Cross-site scripting: unsafe content executes in a user's browser.
+- Cross-site request forgery: a browser is induced to submit an unwanted authenticated request.
+- Weak authentication or session handling.
+- Security misconfiguration and exposed secrets.
+- Vulnerable or outdated dependencies.
+- Inadequate logging and monitoring.
+
+Defenses:
+- Enforce authorization on the server for every sensitive operation.
+- Use parameterized database queries.
+- Apply contextual output encoding and safe templating.
+- Use anti-CSRF protections where applicable.
+- Set Secure, HttpOnly, and appropriate SameSite cookie attributes.
+- Rotate session identifiers after authentication or privilege changes.
+- Store secrets outside source code and restrict access.
+- Validate input and use safe error handling.
+- Keep dependencies updated and review security advisories.
+- Conduct code review and authorized security testing.

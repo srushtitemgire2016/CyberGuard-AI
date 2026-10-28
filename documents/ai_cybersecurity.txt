@@ -1,0 +1,21 @@
+ARTIFICIAL INTELLIGENCE AND CYBERSECURITY
+
+AI can support defensive work such as summarizing logs, classifying alerts, assisting security awareness, and organizing incident reports. AI outputs may be incorrect and should be verified.
+
+AI-related risks include:
+- Deepfake audio or video used for impersonation and fraud.
+- AI-generated phishing messages.
+- Prompt injection, where untrusted content attempts to manipulate an AI system.
+- Sensitive data exposure through prompts, logs, or connected tools.
+- Insecure AI integrations and excessive tool permissions.
+- Overreliance on generated security advice.
+
+Defenses:
+- Verify high-impact requests through independent channels.
+- Do not submit secrets or sensitive personal data to unapproved services.
+- Treat retrieved documents and external content as untrusted input.
+- Keep AI tools within least-privilege boundaries.
+- Require human review for consequential actions.
+- Log and test AI system behavior while protecting sensitive data.
+- Validate generated commands, code, and recommendations before use.
+- Separate model-generated suggestions from confirmed security findings.

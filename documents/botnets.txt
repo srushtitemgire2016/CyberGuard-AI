@@ -1,0 +1,20 @@
+BOTNETS
+
+A botnet is a group of devices compromised and controlled by an operator. Infected devices may be used for spam, credential attacks, DDoS, or other abuse.
+
+Devices may be infected through weak passwords, unpatched software, malicious downloads, or exposed services.
+
+Possible signs:
+- Unusual outbound traffic or repeated connections to unknown hosts.
+- Unexpected resource use.
+- Unknown processes or configuration changes.
+- Security alerts from network or endpoint tools.
+
+Prevention and response:
+- Change default device credentials and use strong unique passwords.
+- Patch routers, cameras, servers, and other connected devices.
+- Disable remote administration when unnecessary.
+- Segment IoT devices from sensitive systems.
+- Use trusted security tools and monitor network traffic.
+- Isolate suspected devices and follow vendor or security-team remediation guidance.
+- Factory-reset or reinstall only when appropriate, then patch and securely reconfigure.

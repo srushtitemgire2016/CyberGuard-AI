@@ -1,0 +1,24 @@
+NETWORK SECURITY
+
+Network security protects devices, traffic, services, and infrastructure against unauthorized access and disruption.
+
+Key controls:
+- Firewalls restrict traffic according to explicit rules.
+- Network segmentation limits movement between systems.
+- Secure protocols protect data in transit.
+- Intrusion detection and prevention systems identify suspicious activity.
+- Centralized logging supports investigation.
+- Asset inventories help teams know what must be protected.
+- Secure configuration reduces unnecessary exposed services.
+
+Good practices:
+- Disable unused services and close unnecessary ports.
+- Restrict management interfaces to trusted networks.
+- Use unique credentials and MFA for administration.
+- Patch routers, switches, servers, and endpoints.
+- Monitor DNS, authentication, and network flows.
+- Use secure remote access and remove access when no longer needed.
+- Separate guest Wi-Fi from sensitive internal systems.
+- Test defenses only on systems for which permission has been granted.
+
+A port being open is not by itself proof of a vulnerability; assess the service, configuration, exposure, and business need.

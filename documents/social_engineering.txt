@@ -1,0 +1,25 @@
+SOCIAL ENGINEERING
+
+Social engineering manipulates people into revealing information, transferring money, granting access, or bypassing security controls.
+
+Common techniques:
+- Pretexting: inventing a believable scenario or identity.
+- Baiting: enticing someone with a tempting offer or item.
+- Quid pro quo: promising a benefit in exchange for access or information.
+- Tailgating: following an authorized person into a restricted area.
+- Impersonation: pretending to be a colleague, vendor, executive, or support worker.
+- Business email compromise: manipulating payment or data-transfer workflows.
+
+Warning signs:
+- Urgency, secrecy, pressure, or requests to bypass approvals.
+- Unexpected requests for credentials, MFA codes, gift cards, or payments.
+- Changes to bank details or payment instructions.
+- Requests that conflict with normal procedures.
+
+Defenses:
+- Verify identity and requests through a separate trusted channel.
+- Require dual approval for high-value payments or sensitive changes.
+- Never share passwords or MFA codes.
+- Use visitor controls and challenge unknown visitors politely.
+- Encourage reporting without blame.
+- Provide regular, realistic security awareness training.

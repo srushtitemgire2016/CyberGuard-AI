@@ -1,0 +1,19 @@
+IDENTITY AND ACCESS MANAGEMENT
+
+Identity and access management (IAM) ensures that the right identities have appropriate access to the right resources.
+
+Principles:
+- Least privilege: grant only the permissions necessary for a task.
+- Need to know: limit access to information required for a role.
+- Separation of duties: avoid concentrating incompatible powers in one identity.
+- Zero trust: continuously verify access using identity, device, context, and policy rather than assuming a network location is safe.
+- Joiner-mover-leaver processes: grant, adjust, and remove access as people change roles or leave.
+
+Good practices:
+- Use role-based access control where suitable.
+- Require MFA for privileged access.
+- Review access regularly.
+- Use separate administrative accounts.
+- Protect service accounts and API credentials.
+- Remove stale accounts and tokens.
+- Log privileged actions and investigate unusual access.

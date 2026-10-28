@@ -1,0 +1,16 @@
+BACKUP AND DISASTER RECOVERY
+
+Backups help restore data after ransomware, accidental deletion, hardware failure, or other incidents.
+
+Good practices:
+- Define recovery time objectives and recovery point objectives.
+- Keep multiple copies, including offline or immutable backups where feasible.
+- Separate backup credentials and access from ordinary production accounts.
+- Encrypt backups and protect keys.
+- Monitor backup jobs and alert on failures.
+- Test restoration regularly, not merely backup creation.
+- Document recovery order and responsibilities.
+- Protect backups from deletion by compromised administrator accounts.
+- Keep disaster-recovery procedures current.
+
+A backup that has never been restored in a test may not be usable. Recovery planning should include applications, configurations, identity services, and data dependencies.

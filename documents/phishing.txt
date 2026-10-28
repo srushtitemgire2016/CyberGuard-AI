@@ -1,0 +1,35 @@
+PHISHING: DEFINITION, TYPES, WARNING SIGNS, AND RESPONSE
+
+Phishing is an attack in which someone impersonates a trusted person or organization to trick a target into revealing information, sending money, opening a malicious file, or visiting a fraudulent website.
+
+Types:
+- Email phishing: fraudulent emails sent to many targets.
+- Spear phishing: tailored messages aimed at a particular person or organization.
+- Whaling: targeted phishing aimed at senior or high-value individuals.
+- Smishing: phishing through SMS or text messages.
+- Vishing: phishing through voice calls.
+- QR phishing: malicious QR codes that direct users to fraudulent websites.
+- Business email compromise: impersonation or compromise of business email to request payments or sensitive data.
+
+Warning signs:
+- Unexpected requests for passwords, OTPs, payment, or confidential files.
+- Urgent or threatening language.
+- Sender addresses or domains that do not match the claimed organization.
+- Unexpected attachments, links, QR codes, or login prompts.
+- Requests to bypass normal approval procedures.
+- Offers or warnings that seem unusually attractive or alarming.
+
+Prevention:
+- Verify unexpected requests through a separate, known-good contact method.
+- Navigate to official sites directly rather than using message links.
+- Never disclose passwords, PINs, or OTPs in response to unsolicited requests.
+- Use multi-factor authentication or passkeys.
+- Keep software updated and report suspicious messages.
+- Use email filtering and domain protections where available.
+- Do not rely on spelling mistakes alone; sophisticated phishing can look polished.
+
+If targeted:
+- Stop interacting with the message and report it.
+- If credentials were entered, change them through the official service and revoke suspicious sessions.
+- If payment details were shared, contact the bank or payment provider immediately.
+- If a file was opened and compromise is suspected, contact IT/security support.

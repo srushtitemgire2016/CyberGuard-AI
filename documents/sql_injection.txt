@@ -1,0 +1,19 @@
+# SQL Injection: Security Guidance
+
+## What is SQL Injection?
+SQL injection is a security vulnerability that occurs when an application includes untrusted user input directly in an SQL query. An attacker may manipulate the query to access, modify, or delete database information.
+
+## Common Causes
+- Building SQL queries by concatenating user input.
+- Failing to use parameterized queries.
+- Using database accounts with excessive privileges.
+
+## Recommended Prevention Methods
+1. Use parameterized queries or prepared statements.
+2. Validate user input according to the application's requirements.
+3. Apply the principle of least privilege to database accounts.
+4. Avoid displaying detailed database error messages to users.
+5. Keep database software and application frameworks updated.
+
+## Additional Guidance
+Input validation is useful, but it should not replace parameterized queries. Security testing should be performed only on systems you own or are authorized to test.

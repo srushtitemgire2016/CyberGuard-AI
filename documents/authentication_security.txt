@@ -1,0 +1,17 @@
+AUTHENTICATION AND ACCOUNT SECURITY
+
+Authentication verifies who or what is requesting access. Authorization determines what an authenticated identity is allowed to do.
+
+Strong controls:
+- Prefer passkeys or phishing-resistant multi-factor authentication where supported.
+- Use unique passwords and a password manager.
+- Rate-limit repeated failed logins and monitor suspicious patterns.
+- Protect password-reset and account-recovery workflows.
+- Use secure session cookies and expire or revoke sessions when needed.
+- Require re-authentication for high-risk actions.
+- Do not reveal whether a particular account exists unnecessarily.
+- Store password hashes using dedicated password-hashing algorithms and salts.
+- Review privileged accounts and remove unused accounts.
+- Alert users about important account changes.
+
+MFA reduces risk but is not a guarantee. Attackers may target recovery processes, session tokens, or users through social engineering.

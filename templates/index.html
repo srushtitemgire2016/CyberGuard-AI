@@ -1,0 +1,204 @@
+{% extends "base.html" %}
+
+{% block title %}Home | CyberGuard AI{% endblock %}
+
+{% block content %}
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container text-center">
+
+        <span class="badge project-badge mb-3">
+            AI-POWERED CYBERSECURITY
+        </span>
+
+        <h1>
+            Understand Threats.<br>
+            <span class="highlight">Strengthen Security.</span>
+        </h1>
+
+        <p class="hero-description">
+            Your intelligent cybersecurity knowledge assistant.
+            Explore vulnerabilities, understand security reports,
+            and discover recommended defensive measures.
+        </p>
+
+        <!-- Search Box -->
+        <form action="/assistant" method="GET" class="search-box mx-auto">
+
+            <input
+                type="text"
+                name="q"
+                placeholder="Ask a cybersecurity question..."
+                aria-label="Ask a cybersecurity question"
+                required
+            >
+
+            <button type="submit">
+                Ask AI →
+            </button>
+
+        </form>
+
+        <p class="helper-text mt-3">
+            Try asking about SQL injection, malware, or network security.
+        </p>
+
+    </div>
+</section>
+
+
+<!-- Features Section -->
+<section class="container feature-section">
+
+    <div class="section-heading text-center">
+        <h2>Your Security Knowledge Hub</h2>
+
+        <p>
+            Understand security issues and discover relevant defensive guidance.
+        </p>
+    </div>
+
+    <div class="row g-4 mt-3">
+
+        <!-- AI Assistant -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="feature-card">
+
+                <div class="feature-icon">🤖</div>
+
+                <h3>AI Security Assistant</h3>
+
+                <p>
+                    Ask cybersecurity questions and receive explanations
+                    supported by relevant security documents.
+                </p>
+
+                <a href="/assistant">Explore Assistant →</a>
+
+            </div>
+        </div>
+
+
+        <!-- Knowledge Library -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="feature-card">
+
+                <div class="feature-icon">📚</div>
+
+                <h3>Knowledge Library</h3>
+
+                <p>
+                    Explore cybersecurity reports, security policies,
+                    and threat intelligence documents.
+                </p>
+
+                <a href="/library">Explore Library →</a>
+
+            </div>
+        </div>
+
+
+        <!-- Vulnerability Explorer -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="feature-card">
+
+                <div class="feature-icon">🛡️</div>
+
+                <h3>Vulnerability Explorer</h3>
+
+                <p>
+                    Understand common security vulnerabilities and
+                    find recommended mitigation measures.
+                </p>
+
+                <a href="/vulnerabilities">Explore Vulnerabilities →</a>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- How It Works -->
+<section class="container how-section">
+
+    <div class="section-heading text-center">
+
+        <h2>How CyberGuard AI Works</h2>
+
+        <p>
+            From a security question to evidence-based recommendations.
+        </p>
+
+    </div>
+
+    <div class="row g-4 mt-3">
+
+        <div class="col-12 col-md-4">
+            <div class="process-card">
+
+                <span>01</span>
+
+                <h3>Ask</h3>
+
+                <p>
+                    Describe a cybersecurity problem or ask a question.
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="col-12 col-md-4">
+            <div class="process-card">
+
+                <span>02</span>
+
+                <h3>Retrieve</h3>
+
+                <p>
+                    Find relevant information in the available security documents.
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="col-12 col-md-4">
+            <div class="process-card">
+
+                <span>03</span>
+
+                <h3>Protect</h3>
+
+                <p>
+                    Review recommended mitigations and their supporting sources.
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Disclaimer -->
+<section class="container mb-5">
+
+    <div class="disclaimer-box">
+
+        <strong>Security Notice</strong>
+
+        <p class="mb-0">
+            CyberGuard AI provides cybersecurity information and defensive
+            guidance. Verify recommendations before applying them to
+            production systems.
+        </p>
+
+    </div>
+
+</section>
+
+{% endblock %}

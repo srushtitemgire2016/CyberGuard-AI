@@ -1,0 +1,24 @@
+CROSS-SITE SCRIPTING (XSS)
+
+Cross-site scripting is a web security vulnerability where attacker-controlled script content executes in another user's browser in the context of a trusted site.
+
+Types:
+- Stored XSS: malicious content is saved by an application and later shown to users.
+- Reflected XSS: unsafe input is included in an immediate response.
+- DOM-based XSS: client-side code handles data unsafely and changes the page in a dangerous way.
+
+Potential impact:
+- Actions performed as the victim within the site.
+- Exposure of page data accessible to the browser.
+- Phishing content displayed within a trusted site.
+- Session compromise in situations where session protections are insufficient.
+
+Prevention:
+- Contextually encode untrusted output before inserting it into HTML, attributes, URLs, CSS, or JavaScript.
+- Prefer safe DOM APIs and avoid inserting untrusted strings as HTML.
+- Validate input, but do not treat validation as a substitute for output encoding.
+- Use a well-maintained templating framework with automatic escaping.
+- Apply a carefully configured Content Security Policy as defense in depth.
+- Use HttpOnly, Secure, and appropriate SameSite cookie attributes.
+- Sanitize rich HTML with a trusted sanitizer when HTML input is required.
+- Test authorized applications using a secure development process.

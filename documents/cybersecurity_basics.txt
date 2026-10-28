@@ -1,0 +1,23 @@
+CYBERSECURITY BASICS
+
+Cybersecurity protects computers, networks, applications, and data from unauthorized access, damage, disruption, and theft.
+
+Core security goals (CIA triad):
+- Confidentiality: only authorized people or systems can access information.
+- Integrity: information remains accurate and is changed only in authorized ways.
+- Availability: systems and data are available when needed.
+
+Common threats include phishing, malware, ransomware, password attacks, software vulnerabilities, social engineering, data breaches, and denial-of-service attacks.
+
+General protection:
+- Install software and security updates promptly.
+- Use unique passwords or passkeys and enable multi-factor authentication.
+- Keep reliable, tested backups of important data.
+- Use reputable endpoint protection and a firewall.
+- Limit user and application permissions to what is necessary.
+- Be cautious with links, attachments, unexpected requests, and downloads.
+- Protect sensitive data with appropriate encryption and access controls.
+- Monitor accounts and devices for unusual activity.
+- Report suspected incidents quickly.
+
+Security is risk reduction, not a guarantee that attacks will never happen. Controls should be selected according to the system, threat, and impact.

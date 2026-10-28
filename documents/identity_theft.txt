@@ -1,0 +1,25 @@
+IDENTITY THEFT AND ACCOUNT TAKEOVER
+
+Identity theft involves unauthorized use of another person's identifying information. Account takeover occurs when someone gains control of an account without permission.
+
+Common routes:
+- Phishing and social engineering.
+- Reused or stolen passwords.
+- Malware that steals information.
+- Data breaches and exposed personal information.
+- SIM-swap or fraudulent account-recovery attacks.
+
+Prevention:
+- Use unique passwords or passkeys and enable MFA.
+- Limit the personal information shared publicly.
+- Secure email accounts because they often control password resets.
+- Set account alerts and review transactions and sign-in history.
+- Protect mobile carrier accounts with available PINs or safeguards.
+- Verify requests for identity documents and financial information.
+
+If affected:
+- Secure the email account and affected accounts from a trusted device.
+- Change exposed credentials and revoke unknown sessions.
+- Contact banks, providers, and relevant authorities promptly.
+- Preserve messages and transaction records.
+- Follow official identity-theft reporting and recovery procedures for your country.

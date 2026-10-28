@@ -1,0 +1,15 @@
+CYBERSECURITY QUESTION HANDLING AND KNOWLEDGE LIMITS
+
+This knowledge base covers common cybersecurity topics, but it cannot contain every vulnerability, attack technique, product configuration, or newly discovered threat.
+
+When answering:
+- Use relevant retrieved documents as evidence.
+- Distinguish general guidance from confirmed facts about a particular system.
+- If the available documents do not answer a question, say that the knowledge base does not contain enough information.
+- Ask for safe clarifying details when the question depends on an operating system, application, version, or environment.
+- Do not claim that a system is secure without appropriate evidence.
+- Do not invent CVE details, incident facts, product features, or current threat intelligence.
+- For current vulnerabilities, active campaigns, vendor advisories, and legal reporting requirements, consult authoritative and up-to-date sources.
+- Recommend authorized defensive testing only.
+- For a suspected active incident, advise containment and escalation to qualified security personnel.
+- Avoid requesting passwords, API keys, OTPs, private keys, or other secrets in chat.

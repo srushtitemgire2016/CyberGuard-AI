@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block title %}Vulnerability Explorer | CyberGuard AI{% endblock %}
+
+{% block content %}
+
+<section class="container py-5">
+
+    <span class="badge project-badge mb-3">
+        VULNERABILITY EXPLORER
+    </span>
+
+    <h1>Explore Cybersecurity Vulnerabilities</h1>
+
+    <p class="text-secondary mt-3">
+        Understand common vulnerabilities, their potential impact,
+        and recommended defensive measures.
+    </p>
+
+    <div class="row g-4 mt-3">
+
+        <!-- SQL Injection -->
+        <div class="col-12 col-md-6">
+            <div class="feature-card">
+                <div class="feature-icon">🗄️</div>
+
+                <h3>SQL Injection</h3>
+
+                <p>
+                    An attack in which untrusted input interferes with
+                    database queries.
+                </p>
+
+                <strong>Recommended mitigation</strong>
+
+                <p class="mt-2">
+                    Use parameterized queries, validate input,
+                    and apply least-privilege database permissions.
+                </p>
+            </div>
+        </div>
+
+        <!-- Cross-Site Scripting -->
+        <div class="col-12 col-md-6">
+            <div class="feature-card">
+                <div class="feature-icon">🌐</div>
+
+                <h3>Cross-Site Scripting (XSS)</h3>
+
+                <p>
+                    A vulnerability that can allow untrusted scripts
+                    to execute in another user's browser.
+                </p>
+
+                <strong>Recommended mitigation</strong>
+
+                <p class="mt-2">
+                    Apply context-aware output encoding, sanitize HTML
+                    when appropriate, and use a suitable Content
+                    Security Policy.
+                </p>
+            </div>
+        </div>
+
+        <!-- Broken Access Control -->
+        <div class="col-12 col-md-6">
+            <div class="feature-card">
+                <div class="feature-icon">🔑</div>
+
+                <h3>Broken Access Control</h3>
+
+                <p>
+                    Occurs when an application does not properly enforce
+                    what an authenticated user is allowed to access.
+                </p>
+
+                <strong>Recommended mitigation</strong>
+
+                <p class="mt-2">
+                    Enforce authorization on the server for every
+                    protected resource and test access-control rules.
+                </p>
+            </div>
+        </div>
+
+        <!-- Security Misconfiguration -->
+        <div class="col-12 col-md-6">
+            <div class="feature-card">
+                <div class="feature-icon">⚙️</div>
+
+                <h3>Security Misconfiguration</h3>
+
+                <p>
+                    Insecure settings or unnecessary services can
+                    expose an application to attacks.
+                </p>
+
+                <strong>Recommended mitigation</strong>
+
+                <p class="mt-2">
+                    Apply secure defaults, remove unnecessary services,
+                    update software, and review configurations regularly.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="disclaimer-box mt-4">
+        <strong>Important</strong>
+
+        <p class="mb-0">
+            These are introductory examples. The next phase will connect
+            the explorer to cybersecurity documents so users can access
+            supporting sources and more detailed mitigation guidance.
+        </p>
+    </div>
+
+</section>
+
+{% endblock %}

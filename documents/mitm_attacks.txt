@@ -1,0 +1,16 @@
+MAN-IN-THE-MIDDLE (MITM) ATTACKS
+
+A man-in-the-middle attack occurs when an attacker intercepts or alters communication between parties who believe they are communicating directly.
+
+Related risks include rogue Wi-Fi access points, DNS manipulation, compromised routers, and downgrade or certificate-validation failures.
+
+Protection:
+- Use HTTPS and never ignore browser certificate warnings.
+- Keep devices, browsers, and router firmware updated.
+- Avoid sensitive activity on untrusted networks unless using properly configured secure connections.
+- Use a trusted VPN when appropriate, understanding that a VPN shifts trust to its provider and does not replace HTTPS.
+- Use MFA and monitor account activity.
+- Verify unexpected changes to payment or account details through another channel.
+- Secure home and office Wi-Fi with WPA2-AES or WPA3, strong router administrator credentials, and updated firmware.
+
+If interception is suspected, stop entering sensitive information, switch to a trusted network, and contact the affected service or security team.

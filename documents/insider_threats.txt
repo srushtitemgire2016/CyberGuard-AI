@@ -1,0 +1,20 @@
+INSIDER THREATS
+
+An insider threat involves risk from someone with authorized access, including employees, contractors, vendors, or other trusted users. It may be malicious, negligent, or accidental.
+
+Examples:
+- Intentional theft or disclosure of confidential information.
+- Accidental sending of data to the wrong recipient.
+- Misuse of privileges.
+- Compromised accounts used by an external attacker.
+- Unsafe handling of removable media or cloud-sharing permissions.
+
+Controls:
+- Apply least privilege and role-based access.
+- Review access periodically and remove access promptly when roles change.
+- Separate duties for sensitive actions.
+- Log and monitor access to critical data proportionately and lawfully.
+- Use data-loss prevention where appropriate.
+- Train users on data classification and safe sharing.
+- Provide clear reporting channels and investigate fairly.
+- Avoid treating a single unusual behavior as proof of malicious intent.

@@ -1,0 +1,14 @@
+WIRELESS AND WI-FI SECURITY
+
+Wireless risks include rogue access points, weak passwords, insecure encryption, evil-twin networks, and poorly secured router administration.
+
+Protection:
+- Prefer WPA3 or WPA2-AES with a strong unique Wi-Fi password.
+- Change default router administrator credentials.
+- Update router firmware and disable unnecessary remote administration.
+- Use a separate guest network for visitors and IoT devices.
+- Avoid unknown access points that imitate familiar network names.
+- Use HTTPS and pay attention to certificate warnings.
+- Disable automatic joining of unknown networks.
+- Use a trusted VPN where appropriate, while remembering that it does not replace secure application connections.
+- Monitor connected devices and remove unknown devices after investigating.

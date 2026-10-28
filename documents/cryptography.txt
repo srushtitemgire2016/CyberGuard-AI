@@ -1,0 +1,19 @@
+CRYPTOGRAPHY: ENCRYPTION, HASHING, SIGNATURES, AND TLS
+
+Cryptography helps protect confidentiality, integrity, authenticity, and non-repudiation.
+
+Encryption transforms readable data into ciphertext using a key. Decryption uses the appropriate key to recover the data. Encryption is used for data at rest and in transit.
+
+Hashing maps input data to a fixed-length digest. Secure hash functions are designed to make it impractical to recover the input or find collisions. Passwords should be stored with a dedicated password-hashing scheme such as Argon2id, scrypt, or bcrypt, with salts and appropriate parameters—not with a fast general-purpose hash alone.
+
+Digital signatures use asymmetric cryptography to help verify authenticity and integrity.
+
+TLS helps protect network communication and authenticate servers when certificate validation is performed correctly.
+
+Best practices:
+- Use established, maintained cryptographic libraries.
+- Do not invent custom encryption algorithms.
+- Protect, rotate, and restrict access to keys.
+- Do not hard-code secrets in public source repositories.
+- Use authenticated encryption where suitable.
+- Follow current standards and expert guidance for algorithm and parameter selection.

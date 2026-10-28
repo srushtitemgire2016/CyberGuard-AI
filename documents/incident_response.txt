@@ -1,0 +1,22 @@
+CYBERSECURITY INCIDENT RESPONSE
+
+Incident response is the organized process for handling suspected or confirmed security events.
+
+Common phases:
+1. Preparation: define roles, contacts, backups, logging, and response procedures.
+2. Detection and analysis: assess alerts, determine scope, preserve evidence, and distinguish incidents from false positives.
+3. Containment: limit spread and ongoing harm.
+4. Eradication: remove the cause, such as malware or compromised access.
+5. Recovery: restore services safely and monitor for recurrence.
+6. Lessons learned: document what happened and improve controls.
+
+General practices:
+- Escalate promptly according to organizational policy.
+- Record times, affected systems, actions, and decisions.
+- Preserve relevant logs and evidence.
+- Avoid destroying evidence or making unsupported assumptions.
+- Communicate through approved channels.
+- Meet applicable legal, regulatory, and contractual requirements.
+- Test the response plan and update it after exercises or incidents.
+
+The correct technical steps depend on the incident. Critical environments should involve qualified incident responders.

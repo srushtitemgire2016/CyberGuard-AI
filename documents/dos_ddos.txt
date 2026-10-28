@@ -1,0 +1,20 @@
+DENIAL-OF-SERVICE (DoS) AND DISTRIBUTED DENIAL-OF-SERVICE (DDoS)
+
+A denial-of-service attack attempts to make a service unavailable by exhausting bandwidth, connection capacity, application resources, or other system limits. A DDoS attack uses many distributed sources.
+
+Possible signs:
+- Sudden spikes in traffic or connection requests.
+- Increased latency, errors, or service outages.
+- Unusual traffic patterns from many sources.
+- Resource exhaustion without a normal business explanation.
+
+Defenses:
+- Use DDoS protection from a qualified provider or content delivery network.
+- Apply rate limits, request-size limits, timeouts, and connection limits.
+- Use caching and resilient architecture where appropriate.
+- Monitor traffic and maintain an incident escalation plan.
+- Coordinate with hosting providers and network operators during an attack.
+- Avoid relying on a single server or network path for critical services.
+- Test capacity and resilience only with authorization.
+
+A legitimate traffic surge can resemble an attack. Investigate logs and traffic patterns before concluding that an outage is malicious.

@@ -1,0 +1,34 @@
+RANSOMWARE: PREVENTION, DETECTION, AND RECOVERY
+
+Ransomware is malware that commonly encrypts files or systems and demands payment. Some operators also steal data and threaten to publish it.
+
+Common entry paths:
+- Phishing attachments or links.
+- Exploited unpatched vulnerabilities.
+- Stolen or weak remote-access credentials.
+- Compromised software or third-party access.
+
+Warning signs:
+- Files suddenly become inaccessible or have unfamiliar extensions.
+- Ransom notes appear.
+- Unexpected mass file changes or suspicious administrative activity.
+- Security alerts or unusual data transfers.
+
+Prevention:
+- Maintain offline or immutable backups and test restoration regularly.
+- Patch operating systems, applications, VPNs, and remote-access services.
+- Require MFA for remote access and administrator accounts.
+- Limit privileges and segment networks.
+- Use endpoint detection and email filtering.
+- Monitor unusual file operations and outbound data transfers.
+- Train staff to recognize suspicious messages.
+
+Response:
+- Activate the incident-response plan and contact security professionals.
+- Isolate affected systems from networks to limit spread.
+- Avoid deleting evidence or immediately wiping systems before responders assess them.
+- Protect unaffected backups and systems.
+- Determine the scope, entry point, and possible data theft.
+- Restore only from verified clean backups after containment and remediation.
+- Follow legal, regulatory, and notification requirements.
+- Paying a ransom does not guarantee recovery or deletion of stolen data.
